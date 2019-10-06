@@ -138,3 +138,32 @@ input[type=submit] {
 #content-wrap {
   padding-bottom: 2.5rem;    /* Footer height */
 }
+
+@media screen and (max-width: 980px) {
+  #format {
+    /* Box-model */
+    width: 120%;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  #format {
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 640px) {
+  #format {
+    /* Box-model */
+    width: 80%;
+    padding: 20px;
+  }
+
+  header {
+    position: static;
+  }
+
+}
